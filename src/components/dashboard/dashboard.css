@@ -1,0 +1,72 @@
+.dashboard {
+    width: 310px;
+    height: 2744px;
+    background: linear-gradient(180deg, #010127 0%, #000000 100%);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard hr {
+    color: rgba(128, 128, 128, 0.666); /* Rangni sozlash */
+    border: none; /* Chiziqning chegarasini olib tashlash */
+    border-top: 1px solid rgba(128, 128, 128, 0.519); /* Chiziqning yuqori chegarasini rang va qalinligini sozlash */
+    margin: 20px 0; /* Yangi elementlar orasidagi bo'shliq */
+    margin-top: 30px;
+  }
+  
+ .icons p {
+    color:  rgba(255, 255, 255, 0.63);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px  30px;
+
+} 
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Yangi elementlar orasidagi bo'shliq */
+  
+}
+
+  .icons img {
+    margin-right: 10px; /* Rasm va matn orasidagi bo'shliq */
+  }
+  
+  
+  .icons a {
+    text-decoration: none; /* Underline olib tashlash */
+    color: inherit; /* Matn rangini saqlab qolish */
+    display: flex;
+    align-items: center;
+  }
+  
+
+ .icons p:hover {
+   color:  rgba(255, 255, 255, 1);
+} 
+
+.icons:hover {
+    background-color: rgba(79, 78, 78, 0.645);
+    color:  rgba(255, 255, 255, 1);
+   
+}
+
+.dashboard__pages {
+    line-height: 30px;
+}
+
+.second {
+    margin-top: 70px;
+}
+
+.dashboard__contents {
+    color: rgba(179, 179, 179, 1);
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 50px;
+}
+.dashboard__contents p:hover {
+    text-decoration: underline;
+}
