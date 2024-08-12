@@ -1,0 +1,58 @@
+ 
+.searchPage {
+    width: 70%; 
+    height: 2744px; 
+    background: linear-gradient(180deg, #000000 0%, #010127 50%, #000000fc 100%);
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchPage__header {
+    margin-bottom: 20px;
+  }
+  
+
+  .searchPage__content {
+    margin-left: 150px;
+    flex: 1; 
+    overflow-x: auto; 
+    overflow-y: auto; 
+    padding-bottom: 20px; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+  }
+
+  .searchPage__card {
+    width: 250px; 
+    height: 350px;
+    background: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .searchPage__card img {
+    width: 100%; 
+    border-radius: 8px 8px 0 0; 
+  }
+
+  .searchPage__card .ant-card-meta-title {
+    color: #000000;
+    font-size: 16px; 
+    font-weight: bold; 
+  }
+
+.searchPage__searchInput {
+    margin-left: 300px;
+    width: 500px; 
+    height: 40px; 
+    padding: 0 30px; 
+    border-radius: 5px; 
+    border: 1px solid #dcdcdc; 
+    font-size: 18px; 
+    box-sizing: border-box; 
+  }
+  

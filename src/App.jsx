@@ -4,8 +4,8 @@ import HomePage from './components/home/Home';
 import Search from './components/search/Search';
 import LibraryPage from './components/library/Library';
 import LikedPage from './components/likedPage/Liked';
-import CreatePlaylist from './components/createPlaylist/Create'
-
+import CreatePage from './components/createPlaylist/CreatePage';
+import Playlist from './components/PlayList';
 import './App.css';
 
 function App() {
@@ -16,7 +16,8 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/library" element={<LibraryPage />} />
           <Route path="/liked" element={<LikedPage />} />
-          <Route path="/createPlaylist" element={<CreatePlaylist />} />
+          <Route path="/createPlaylist" element={< CreatePage/>} />
+          <Route path="/playlist/:playlistId"  element={<Playlist/>} />
         </Routes>
       </div>
   

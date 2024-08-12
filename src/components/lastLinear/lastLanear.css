@@ -1,12 +1,14 @@
-.last {
-width: 346px;
-height: 2744px;
-background-color: rgba(0, 0, 0, 0.767); 
-padding: 15px;
-margin-right: 1000px;
-
+.lastlinear{
+    position: relative;
 }
 
+.last {
+    width: 346px;
+    height: 2744px;
+    padding:15px;
+    background: linear-gradient(180deg, #010127 0%, #000000 100%);
+ }
+  
 .last__content {
     display: flex;
     gap: 70px;

@@ -1,0 +1,57 @@
+
+.yourLibrary {
+    background: linear-gradient(180deg, #000000 0%, #010127 50%, #000000fc 100%);
+    width: 70%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    height: 2744px;/* Sets the container height to the full viewport height */
+}
+
+
+.yourLibrary__content {
+    background: inherit; /* Inherits the background from the parent container */
+    margin-top: 20px; /* Adds space between header and content */
+    max-width: 100%; /* Ensures the content doesn't exceed the container's width */
+    overflow-y: auto; /* Enables vertical scrolling */
+    height: calc(100% - 50px); /* Adjusts height considering the padding */
+}
+
+
+.ant-table {
+    background-color: #000000; /* Inherits the background from the parent container */
+    width: 100%; /* Makes sure the table width is responsive */
+    min-width: 600px; /* Optional: sets a minimum width for better readability */
+    color: white; /* Ensures text color is white for readability */
+}
+
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+    white-space: nowrap; /* Prevents text wrapping in cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+
+.ant-table-column-title img {
+    width: 50px; /* Sets the image width */
+    height: 50px; /* Sets the image height */
+    object-fit: cover; /* Ensures images don't stretch */
+    margin-right: 10px; /* Adds space between image and text */
+}
+
+
+.ant-table-cell-ellipsis {
+    max-width: 400px; /* Restricts maximum width for cells */
+    overflow: hidden; /* Ensures text doesn't overflow */
+    text-overflow: ellipsis; /* Adds ellipsis (...) to long text */
+}
+
+/* Spin (loading) animation positioning */
+.ant-spin {
+    background: inherit; /* Inherits the background from the parent container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes sure the spinner is centered on the screen */
+}

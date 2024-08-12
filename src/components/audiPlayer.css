@@ -1,0 +1,10 @@
+.audio-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .audio-player button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  

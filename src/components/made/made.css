@@ -1,0 +1,57 @@
+.made {
+    padding: 15px;
+  }
+  
+  .made span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding: 0px 5px;
+
+  }
+  
+  .madeCarousel {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  
+  }
+  
+  .made__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+  }
+  
+  .made__item {
+    background: rgba(99, 98, 98, 0.354);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-width: 224px; 
+  }
+  
+  .made__item img {
+    width: 224px;
+    height: 240px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 0px 5px;
+  }
+  
+  .made__item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .made__item:hover {
+    background-color: #6d6d6d77;
+  }
+  

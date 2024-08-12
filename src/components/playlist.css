@@ -1,0 +1,88 @@
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    height: 2895px;
+    overflow: hidden;
+  }
+  
+  .selected-track {
+    flex: 0 1 auto;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 60px;
+
+  }
+  
+  .selected-track__details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .selected-track__image {
+    width: 700px;
+    height: 400px;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+  
+  .selected-track__info {
+    margin-left: 20px;
+  }
+  
+  .selected-track__name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .selected-track__artists {
+    color: #555;
+  }
+  
+  .selected-track__controls {
+    margin-top: 20px;
+  }
+  
+  .selected-track__controls button {
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #000;
+  }
+  
+  .playlist-table {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+  
+  .playlist-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .playlist-table th, .playlist-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .playlist-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .track-item {
+    cursor: pointer;
+  }
+  
+  .track-item.selected {
+    background-color: #e0e0e0;
+  }
+  
+  .track-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  

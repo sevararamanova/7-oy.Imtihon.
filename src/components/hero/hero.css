@@ -1,18 +1,117 @@
-/* .hero {
-    
-    background-color: antiquewhite;
-    width: 1072px;
-    height: 80px;
-    border:1px solid purple;
-   
-   
-
-
-} */
 
 .hero {
-    border:1px solid red;
+    width: 1072px;
+    height: 2744px;
+    background: linear-gradient(180deg, #000000 0%, #010127 50%, #000000fc 100%);
 }
 
-  
-  
+.hero__music {
+    background: linear-gradient(to bottom, rgba(7, 7, 165, 0.803), #000000);
+    padding: 20px; 
+}
+
+.hero__music h1 {
+    font-size: 39px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 126, 0.803);
+    padding: 0px 50px;
+}
+
+.playlist {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    width: 100%; 
+    border-radius: 20px;
+    height: 82px;
+    background-color: rgba(246, 242, 242, 0.295);
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.playlist img {
+    width: 80px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.playlist p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.playlists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    gap: 20px; 
+    padding: 20px;
+    background: transparent; 
+    max-height: calc(3 * 95px + 2 * 20px); 
+    overflow-y: auto; 
+}
+
+.playlist:hover {
+    background-color: rgba(139, 138, 138, 0.355); 
+}
+
+
+.topMixes {
+    padding: 20px;
+   
+}
+
+.topMixes span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37.95px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding: 0px 30px;
+
+}
+
+.topMixes__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    overflow-x: auto; 
+    padding: 20px;
+}
+
+.topMixes__item {
+    background: rgba(99, 98, 98, 0.354);
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.topMixes__item img {
+    width: 224px;
+    height: 240px; 
+    object-fit:contain;
+    border-radius: 10px;
+    padding:0px 5px;
+    border-radius: 10%;
+}
+
+.topMixes__item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.topMixes__item:hover {
+    background-color: #6d6d6d77;
+}

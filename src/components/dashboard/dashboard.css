@@ -7,10 +7,10 @@
 }
 
 .dashboard hr {
-    color: rgba(128, 128, 128, 0.666); /* Rangni sozlash */
-    border: none; /* Chiziqning chegarasini olib tashlash */
-    border-top: 1px solid rgba(128, 128, 128, 0.519); /* Chiziqning yuqori chegarasini rang va qalinligini sozlash */
-    margin: 20px 0; /* Yangi elementlar orasidagi bo'shliq */
+    color: rgba(128, 128, 128, 0.666); 
+    border: none; 
+    border-top: 1px solid rgba(128, 128, 128, 0.519); 
+    margin: 20px 0;
     margin-top: 30px;
   }
   
@@ -25,18 +25,18 @@
 .icons {
     display: flex;
     align-items: center;
-    margin: 10px 0; /* Yangi elementlar orasidagi bo'shliq */
+    margin: 10px 0; 
   
 }
 
   .icons img {
-    margin-right: 10px; /* Rasm va matn orasidagi bo'shliq */
+    margin-right: 10px; 
   }
   
   
   .icons a {
-    text-decoration: none; /* Underline olib tashlash */
-    color: inherit; /* Matn rangini saqlab qolish */
+    text-decoration: none; 
+    color: inherit; 
     display: flex;
     align-items: center;
   }

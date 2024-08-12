@@ -7,6 +7,7 @@ import './lastLanear.css';
 
 const Lastlinear = () => {
   return (
+    <div className='lastlinear'>
     <div className='last'>
         <div className='last__content'>
             <div className='i'>
@@ -41,6 +42,7 @@ const Lastlinear = () => {
             <p>Go to Settings  Social and enable<br></br> “Share my listening activity on <br></br>Spotify.’ You can turn this off at any<br></br> time.</p>
         </div>
          <button>Settings</button>
+       </div>
        </div>
   )
 }
